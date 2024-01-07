@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.prompt-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px
+}
+
+.prompt-input-container > input {
+  height: 44px;
+  padding: 0 4px 0 4px;
+  min-width: 300px;
+}
+
+.prompt-input-container > .ask-button {
+  margin-left: 4px;
+  height: 48px;
+}
